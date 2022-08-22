@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./style.js"></script>
+
+    <title>how to find kundli</title>
+</head>
+
+
+<body>
+    <nav>
+        <button  id="btn" onclick="login()">
+            <span class="spa"></span>
+            <span class="spa"></span>
+            <span class="spa"></span>
+        </button>
+
+        <ul id="navf">    
+            <li id="home">
+                <a href="" onclick="homem()">home </a>
+                <span id="hidebox">
+                    <a class="aa" href="">all</a>
+                    <a class="aa" href="">base</a>
+                    <a class="aa" href="">acid</a>
+                    <a class="aa" href="">salt</a>
+                    <a class="aa" href="">none</a>
+                </span>
+            </li>
+
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Email</a></li>
+            <li><a href="">Contact</a></li>
+
+        </ul>
+        <ol id="ss">
+            <li id="sign"><a href="">Sign up </a></li>
+            <li id="logg"><a href="">Log in</a></li>
+
+        </ol>
+        <!-- <input id="search" type="search" placeholder="search"> -->
+    </nav>
+
+    <div id="box">
+        <h1 style="text-align:center;"> check your kundli</h1>
+        <form id="formf" action="">
+            <label for="lebf">Enter your name:</label>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="labs">Enter your &nbsp; age :</label>
+            <input type="number" name="number" id="number">
+        </form>
+        <button onclick="getRandomInt()"> check</button>
+    </div>
+    <div id="kundli">
+        <span class="kund" id="per">personality :</span> <span class="kun" id="pers"></span><br>
+        <span class="kund">loyal :</span> <span class="kun" id="lo"></span><br>
+        <span class="kund">riches :</span> <span class="kun" id="ri"></span><br>
+        <span class="kund">wishdom :</span> <span class="kun" id="wi"></span><br>
+        <span class="kund">anger :</span> <span class="kun" id="an"></span><br>
+        <span class="kund">care :</span> <span class="kun" id="ca"></span><br>
+        <span class="kund">love :</span> <span class="kun " id="love"></span><br>
+
+    </div>
+   
+</body>
+
+</html>
